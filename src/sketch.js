@@ -122,7 +122,7 @@ function preload() {
 	img23 = loadImage ('img/05_Occhio_SX_5.png')
 	img24 = loadImage ('img/05_Sopra_DX_5.png')
 	img25 = loadImage ('img/05_Sopra_SX_5.png')
-	img26 = loadImage ('img/06_Bocca_più_arrab_6.png')
+	img26 = loadImage ('img/06_Bocca_piu_arrab_6.png')
 	img27 = loadImage ('img/06_Occhio_DX_6.png')
 	img28 = loadImage ('img/06_Occhio_SX_6.png')
 	img29 = loadImage ('img/06_Sopra_DX_6.png')
