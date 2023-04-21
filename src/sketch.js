@@ -144,9 +144,7 @@ function windowResized (){
 }
 
 function keyPressed () {
-	//console.log(keyCode)
-	// keyCode = !keyCode
-
+	
 	if (key == '1'){	
 		
 		bocca = img
@@ -220,7 +218,7 @@ function keyPressed () {
 async function draw() {
 
 	scale (min(windowWidth/640, windowHeight/2))
-	background(156,156,156)
+	background(235,235,235)
 
 	// Disegna la webcam sullo stage, a specchio
 	// push()
@@ -236,9 +234,7 @@ async function draw() {
 			const handedness = hand.handedness // Left : Right
 			noStroke()
 			fill(0) 
-
-		  //bg = background(255,0,0)
-		
+	
 			image (sopras, hand.keypoints[8].x, hand.keypoints[8].y)
 			image(soprad, hand.keypoints[12].x, hand.keypoints[12].y);
 			image (occhiod, hand.keypoints[7].x, hand.keypoints[7].y);			
