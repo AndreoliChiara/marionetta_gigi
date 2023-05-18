@@ -5,7 +5,7 @@ Docenti: A. Gysin, G. Profeta
 Elaborato 1: Marionetta digitale  
 
 # Marionetta espressiva
-Autore: Chiara Andreoli 
+Autore: Chiara Andreoli <br>
 [Marionetta](https://andreolichiara.github.io/marionetta_gigi/)
 
 
