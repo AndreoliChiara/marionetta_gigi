@@ -31,27 +31,27 @@ le dita il numero 2.
 La marionetta si presenta con un’espressione felice, e per farla cambiare si deve digitare la
 sequenza di numeri, dall’1 all’8. Ogni numero
 corrisponde a un’espressione differente, così da
-passare da felice ad arrabbiata.
+passare da felice ad arrabbiata. <br>
 <br>
-<img src="doc/1.png" width="150">
-<img src="doc/2.png" width="150">
-<img src="doc/3.png" width="150">
+<img src="doc/1.png" width="200">
+<img src="doc/2.png" width="200">
+<img src="doc/3.png" width="200">
 
 
 ## Tecnologia usata
 Per inserire i vari elementi nella posizione corretta, ho dovuto utilizzare una funzione specifica
-nella sezione “async function draw”
+nella sezione “async function draw” <br>
 <br>
-<img src="doc/10_codice.png" width="300">
+<img src="doc/10_codice.png" width="600">
 <br>
 <br>
 Successivamente ho dovuto inserire la funzione
 “function keyPressed” utilizzando “if” e “else
-if” per la sequenza numerica, in modo tale da poter cambiare l’espressione della marionetta.
+if” per la sequenza numerica, in modo tale da poter cambiare l’espressione della marionetta. <br>
 <br>
-<img src="doc/11_codice.png" width="150">
-<img src="doc/12_codice.png" width="150">
-<img src="doc/13_codice.png" width="150">
+<img src="doc/11_codice.png" width="200">
+<img src="doc/12_codice.png" width="200">
+<img src="doc/13_codice.png" width="200">
 
 ## Target e contesto d’uso
 Il mio target di riferimento è rappresentato da
