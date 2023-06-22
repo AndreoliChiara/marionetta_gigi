@@ -6,7 +6,7 @@ Elaborato 1: Marionetta digitale
 
 # Marionetta espressiva
 Autore: Chiara Andreoli <br>
-[Marionetta](https://andreolichiara.github.io/marionetta_gigi/)
+[Marionetta emotiva](https://andreolichiara.github.io/marionetta_gigi_emotiva/)
 
 
 ## Introduzione e tema
