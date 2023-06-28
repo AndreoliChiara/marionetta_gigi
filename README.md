@@ -40,9 +40,7 @@ passare da felice ad arrabbiata. <br>
 
 ## Tecnologia usata
 Per inserire i vari elementi nella posizione corretta, ho dovuto utilizzare una funzione specifica
-nella sezione “async function draw” <br>
-<br>
-<img src="doc/10_codice.png" width="600">
+nella sezione “async function draw” 
 <br>
 <br>
 Successivamente ho dovuto inserire la funzione
@@ -51,22 +49,21 @@ if” per la sequenza numerica, in modo tale da poter cambiare l’espressione d
 <br>
 <p>
         
-        if (detector && capture.loadedmetadata) {
-		const hands = await detector.estimateHands(capture.elt, { flipHorizontal: true })
+    if (detector && capture.loadedmetadata) {
+	const hands = await detector.estimateHands(capture.elt, { flipHorizontal: true })
 
-		for (let j=0; j<hands.length; j++) {
-			const hand = hands[j]
-			const handedness = hand.handedness // Left : Right
-			noStroke()
-			fill(0) 
+	for (let j=0; j<hands.length; j++) {
+		const hand = hands[j]
+		const handedness = hand.handedness // Left : Right
+		noStroke()
+		fill(0) 
 	
-			image (sopras, hand.keypoints[8].x, hand.keypoints[8].y)
-			image(soprad, hand.keypoints[12].x, hand.keypoints[12].y);
-			image (occhiod, hand.keypoints[7].x, hand.keypoints[7].y);			
-			image (occhios, hand.keypoints[11].x, hand.keypoints[11].y);				
-			image (bocca, hand.keypoints[4].x, hand.keypoints[4].y);
-			
-		}		
+		image (sopras, hand.keypoints[8].x, hand.keypoints[8].y)
+		image(soprad, hand.keypoints[12].x, hand.keypoints[12].y);
+		image (occhiod, hand.keypoints[7].x, hand.keypoints[7].y);			
+		image (occhios, hand.keypoints[11].x, hand.keypoints[11].y);				
+		image (bocca, hand.keypoints[4].x, hand.keypoints[4].y);
+			}		
 		}		
 
 
@@ -139,7 +136,7 @@ if” per la sequenza numerica, in modo tale da poter cambiare l’espressione d
 		occhios = img38
 		sopras = img40
 		soprad = img39
-	}
+        }
 	}
 
 </p>
