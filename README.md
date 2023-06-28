@@ -49,9 +49,101 @@ Successivamente ho dovuto inserire la funzione
 “function keyPressed” utilizzando “if” e “else
 if” per la sequenza numerica, in modo tale da poter cambiare l’espressione della marionetta. <br>
 <br>
-<img src="doc/11_codice.png" width="200">
-<img src="doc/12_codice.png" width="200">
-<img src="doc/13_codice.png" width="200">
+<p>
+        
+        if (detector && capture.loadedmetadata) {
+		const hands = await detector.estimateHands(capture.elt, { flipHorizontal: true })
+
+		for (let j=0; j<hands.length; j++) {
+			const hand = hands[j]
+			const handedness = hand.handedness // Left : Right
+			noStroke()
+			fill(0) 
+	
+			image (sopras, hand.keypoints[8].x, hand.keypoints[8].y)
+			image(soprad, hand.keypoints[12].x, hand.keypoints[12].y);
+			image (occhiod, hand.keypoints[7].x, hand.keypoints[7].y);			
+			image (occhios, hand.keypoints[11].x, hand.keypoints[11].y);				
+			image (bocca, hand.keypoints[4].x, hand.keypoints[4].y);
+			
+		}		
+		}		
+
+
+</p>
+<br>
+<p>
+    
+    
+    function keyPressed () {
+	
+	if (key == '1'){	
+		
+		bocca = img
+		occhiod = img2
+		occhios = img3
+		sopras = img5
+		soprad = img4
+		
+	} else if (key == '2'){
+		bocca = img6
+		occhiod = img7
+		occhios = img8
+		sopras = img10
+		soprad = img9
+	}
+
+	if (key == '3'){	
+		
+		bocca = img11
+		occhiod = img12
+		occhios = img13
+		sopras = img15
+		soprad = img14
+		
+	} else if (key == '4'){
+		bocca = img16
+		occhiod = img17
+		occhios = img18
+		sopras = img19
+		soprad = img20
+	}
+
+	if (key == '5'){	
+		
+		bocca = img21
+		occhiod = img22
+		occhios = img23
+		sopras = img25
+		soprad = img24
+		
+	} else if (key == '6'){
+		bocca = img26
+		occhiod = img27
+		occhios = img28
+		sopras = img30
+		soprad = img29
+	}
+
+	if (key == '7'){	
+		
+		bocca = img31
+		occhiod = img32
+		occhios = img33
+		sopras = img35
+		soprad = img34
+		
+	} else if (key == '8'){
+		bocca = img36
+		occhiod = img37
+		occhios = img38
+		sopras = img40
+		soprad = img39
+	}
+	}
+
+</p>
+
 
 ## Target e contesto d’uso
 Il mio target di riferimento è rappresentato da
